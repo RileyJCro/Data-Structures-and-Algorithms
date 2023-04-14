@@ -1,0 +1,2 @@
+cat /home/jplank/cs302/Labs/LabA/Gradescript-Examples/005.txt
+

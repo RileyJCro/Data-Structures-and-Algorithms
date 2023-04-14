@@ -1,0 +1,1 @@
+bin/city_map none print < city-7.txt | tail -n 1

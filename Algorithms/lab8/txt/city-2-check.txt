@@ -1,0 +1,27 @@
+      0 : Intersection:    1    0 -     1.300000     1.400000 -     9.000000    12.000000
+      1 :    Segment to    2    0       Distance     0.400000
+      1 :    Segment to    0    0       Distance     0.400000
+      2 : Intersection:    1    1 -     1.000000     1.400000 -    11.000000     7.000000
+      3 :    Segment to    1    0       Distance     0.300000
+      3 :    Segment to    0    1       Distance     0.400000
+      4 : Intersection:    2    0 -     1.300000     1.800000 -     9.000000    12.000000
+      5 :    Segment to    2    1       Distance     0.500000
+      5 :    Segment to    1    0       Distance     0.400000
+      6 : Intersection:    1    2 -     0.700000     1.400000 -     3.000000     3.000000
+      7 :    Segment to    1    1       Distance     0.300000
+      7 :    Segment to    2    2       Distance     0.800000
+      7 :    Segment to    0    2       Distance     0.400000
+      8 : Intersection:    0    1 -     1.000000     1.000000 -     3.000000     3.000000
+      9 :    Segment to    0    2       Distance     0.300000
+      9 :    Segment to    0    0       Distance     0.300000
+     10 : Intersection:    2    1 -     1.000000     2.200000 -    15.000000     7.000000
+     11 :    Segment to    2    2       Distance     0.300000
+     11 :    Segment to    1    1       Distance     0.800000
+     12 : Intersection:    2    2 -     0.700000     2.200000 -     6.000000    15.000000
+     13 :    Segment to    1    2       Distance     0.800000
+     14 : Intersection:    0    2 -     0.700000     1.000000 -     3.000000     3.000000
+     15 :    Segment to    0    1       Distance     0.300000
+     15 :    Segment to    1    2       Distance     0.400000
+     16 : Intersection:    0    0 -     1.300000     1.000000 -     9.000000    12.000000
+     17 :    Segment to    0    1       Distance     0.300000
+     17 :    Segment to    1    0       Distance     0.400000
