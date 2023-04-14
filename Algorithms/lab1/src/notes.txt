@@ -1,0 +1,24 @@
+g++ -Wall -Wextra -std=c++98 -o lib_info lib_info.cpp
+
+Title	Time (m:ss)	Artist	Album	Genre	Track
+
+./lib_info file
+
+cat /home/jplank/cs302/Labs/Lab1/Gradescript-Examples/001.txt
+
+sed -n 2p tmp-001-test-stdout.txt | cat -et     (print the line with the error, identify tabs at eol)
+sed -n 2p tmp-001-correct-stdout.txt | cat -et
+
+None of the words have spaces -- where there should be a space, there is instead an underscore.
+
+Your job is to write the program lib_info.cpp, which will be called with a single command line argument:
+
+UNIX> ./lib_info file
+The argument file is a file in the format of Music.txt. You do not have to error-check this file. You may assume that it is in the correct format, and that no combination of artist/album has songs with the same track number.
+The first thing your program is going to do is read in all the information and turn all underscores back into spaces.
+
+Next, lib_info is going to print out all of MP3 files in the following format: For each artist (sorted lexicographically), the program will print out the artist name, followed by a colon and space, then the number of songs that have that artist's name, followed by a comma and a space, and then the total time of all songs that have that artist's name.
+
+After each artist, you will print out each album by that artist, sorted lexicographically (and indented by eight spaces), followed again by the number of songs and total time for that album.
+
+After each album, you will print out the title of each song on that album, sorted by track number. The format of each of these lines will be 16 spaces, the track number, a period, a space, the song's name, a colon, a space and the song's time.

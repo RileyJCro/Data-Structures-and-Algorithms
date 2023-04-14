@@ -1,0 +1,5 @@
+ bin/sb-player 8 10 5 pbyrg bin/sb-play n y -  
+
+ sh scripts/run_multiple.sh 8 10 5 pbyrg bin/sb-play 10 1
+
+ bin/sb-play 8 10 5 pbyrg < inputs/t1.txt

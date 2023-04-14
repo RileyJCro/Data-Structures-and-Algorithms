@@ -1,0 +1,10 @@
+g++ -Wall -Wextra -std=c++98 -o lib_info lib_info.cpp
+
+Title	Time (m:ss)	Artist	Album	Genre	Track
+
+./lib_info file
+
+cat /home/jplank/cs302/Labs/Lab1/Gradescript-Examples/001.txt
+
+sed -n 2p tmp-001-test-stdout.txt | cat -et     (print the line with the error, identify tabs at eol)
+sed -n 2p tmp-001-correct-stdout.txt | cat -et
